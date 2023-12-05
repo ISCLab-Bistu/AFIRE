@@ -42,7 +42,9 @@ The testing code are included in [metric](https://github.com/ISCLab-Bistu/DeepAd
 
 For `TNO` dataset, run the following code:
 
-`python metric_TNO42.py --dataset_path (your dataset path)`
+```shell
+python metric_TNO42.py --dataset_path (your dataset path)
+```
 
 Test `M3FD` and `LLVIP` using the same method.
 
