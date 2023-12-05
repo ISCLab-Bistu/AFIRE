@@ -1,4 +1,4 @@
-# DeepAdaptiveFusion
+# InteractiveDeepAdaptiveFusion
 
 ## Introduction
 
