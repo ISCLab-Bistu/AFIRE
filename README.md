@@ -1,4 +1,4 @@
-# SCFusion
+# DeepAdaptiveFusion
 
 ## Introduction
 
@@ -21,6 +21,7 @@ We utilized Python 3.7,Pytorch 1.12.0
 
 Dataset can be got from [data_illum.h5](https://github.com/linklist2/PIAFusion_pytorch)
 Create datasets folder in this project, and then move the downloaded h5 file into it.
+
 `python trans_illum_data.py --h5_path 'datasets/data_illum.h5'`
 
 ## Experiments
@@ -30,21 +31,26 @@ Run [train](https://github.com/ISCLab-Bistu/DeepAdaptiveFusion/blob/main/train.p
 
 2. Test images
 
-The testing datasets are included in [images](https://github.com/miaoxufan/SCFusion/tree/main/images).
+The testing datasets are included in [test_image](https://github.com/ISCLab-Bistu/DeepAdaptiveFusion/tree/main/test_image).
 
-The testing results are included in [output_images](https://github.com/miaoxufan/SCFusion/tree/main/ouput_image).
+The testing code are included in [metric](https://github.com/ISCLab-Bistu/DeepAdaptiveFusion/tree/main/metric).
 
-For `TNO21`,modify the `path_fusion` and `fusion_name` parameters, and then run the script file [plot_images/tno21](https://github.com/miaoxufan/SCFusion/blob/main/plot_images/tno21.py).
+For `TNO` dataset, run the following code:
 
-Test `roadscene` and `tno_vot` using the same method.
+`python metric_TNO42.py --dataset_path (your dataset path)`
+
+Test `M3FD` and `LLVIP` using the same method.
 
 3. Evaluate
 
-For `TNO21`, run the corresponding python script file [metric/metric_tno21](https://github.com/miaoxufan/SCFusion/blob/main/metric/metric_tno21.py).
+The evaluating code are included in [metric](https://github.com/ISCLab-Bistu/DeepAdaptiveFusion/tree/main/metric).
 
-Evaluate `roadscene` and `tno_vot` using the same method.
+For `TNO`, run the corresponding python script file [metric_TNO42](https://github.com/ISCLab-Bistu/DeepAdaptiveFusion/blob/main/metric/metric_TNO42.py).
+
+Evaluate `M3FD` and `LLVIP` using the same method.
 
 4. Weight
 
-Our model weight is included in [log](https://github.com/miaoxufan/SCFusion/tree/main/log).
+Our model weight is included in [pretrained](E:\task\fusion\DAF\pretrained).
+
 
