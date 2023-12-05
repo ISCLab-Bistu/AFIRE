@@ -2,7 +2,7 @@
 
 ## Introduction
 
-By Xufan Miao, Mingxin Yu
+By Mingxin Yu, Xufan Miao
 
 
 
@@ -19,9 +19,8 @@ We utilized Python 3.7,Pytorch 1.12.0
 
 ## Dataset
 
-Download [MS-COCO 2014](http://images.cocodataset.org/zips/train2014.zip) and [KAIST](https://soonminhwang.github.io/rgbt-ped-detection/)
+Dataset can be got from [data_illum.h5](https://github.com/linklist2/PIAFusion_pytorch)
 
-Change the paths in the args file: [args_fusion](https://github.com/miaoxufan/SCFusion/blob/main/args_fusion.py)
 
 ## Experiments
 1. Train
@@ -48,19 +47,3 @@ Evaluate `roadscene` and `tno_vot` using the same method.
 
 Our model weight is included in [log](https://github.com/miaoxufan/SCFusion/tree/main/log).
 
-
-## Acknowledgement
-The code in this project is borrowed from ![RFN-Nest](https://github.com/hli1221/imagefusion-rfn-nest).
-
-```
-@article{li2021rfn,
-  title={RFN-Nest: An end-to-end residual fusion network for infrared and visible images},
-  author={Li, Hui and Wu, Xiao-Jun and Kittler, Josef},
-  journal={Information Fusion},
-  volume={73},
-  pages={72--86},
-  month={March},
-  year={2021},
-  publisher={Elsevier}
-}
-```
