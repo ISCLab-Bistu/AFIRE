@@ -23,7 +23,9 @@ Dataset can be got from [data_illum.h5](https://github.com/linklist2/PIAFusion_p
 
 Create datasets folder in this project, and then move the downloaded h5 file into it.
 
-`python trans_illum_data.py --h5_path 'datasets/data_illum.h5'`
+```shell
+python trans_illum_data.py --h5_path 'datasets/data_illum.h5'.py
+```
 
 ## Experiments
 1. Train
@@ -32,7 +34,9 @@ Run [train](https://github.com/ISCLab-Bistu/DeepAdaptiveFusion/blob/main/train.p
 
 Type the corresponding configurations
 
-`python train.py`
+```shell
+python train.py
+```
 
 2. Test images
 
