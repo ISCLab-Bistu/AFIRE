@@ -20,6 +20,7 @@ We utilized Python 3.7,Pytorch 1.12.0
 ## Dataset
 
 Dataset can be got from [data_illum.h5](https://github.com/linklist2/PIAFusion_pytorch)
+
 Create datasets folder in this project, and then move the downloaded h5 file into it.
 
 `python trans_illum_data.py --h5_path 'datasets/data_illum.h5'`
@@ -28,6 +29,10 @@ Create datasets folder in this project, and then move the downloaded h5 file int
 1. Train
 
 Run [train](https://github.com/ISCLab-Bistu/DeepAdaptiveFusion/blob/main/train.py)
+
+Type the corresponding configurations
+
+`python train.py`
 
 2. Test images
 
