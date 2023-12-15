@@ -1,4 +1,4 @@
-# InteractiveDeepAdaptiveFusion
+# AFIRE: Adaptive FusionNet for Illumination-Robust Feature Extraction in Heterogeneous Imaging Environments
 
 ## Introduction
 
